@@ -1,14 +1,13 @@
 'use strict'
 
-const black = '#2a2a2e'
-const white = '#97a4b3'//'#afb5bf'
-const red = '#f27de9'
-const green = '#02d269'
-const yellow = '#fce197'
-const blue = '#8db8fc'//'#6b89ff'
-const magenta = '#b98ef9'
-const cyan = '#72bbf9'
-const lightBlack = '#353b48'//'#5c6d87'
+const black = '#0c0c0d'
+const white = '#97a4b3'
+const red = '#ff7de9'
+const green = '#86de74'
+const yellow = '#fff89e'
+const blue = '#75bfff'
+const magenta = '#b98eff'
+const lightBlack = '#737373'
 
 const colors = {
   black,
@@ -17,7 +16,7 @@ const colors = {
   yellow,
   blue,
   magenta,
-  cyan,
+  cyan: blue,
   white,
   lightBlack,
   lightRed: red,
@@ -25,7 +24,7 @@ const colors = {
   lightYellow: yellow,
   lightBlue: blue,
   lightMagenta: magenta,
-  lightCyan: cyan,
+  lightCyan: blue,
   lightWhite: white
 }
 
@@ -34,11 +33,11 @@ module.exports.onWindow = browserWindow => browserWindow.setVibrancy('dark')
 module.exports.decorateConfig = config => {
   const backgroundColor = black
   const foregroundColor = white
-  const cursorColor = config.cursorColor || '#72bbf9'
+  const cursorColor = config.cursorColor || blue
   const borderColor = '#3c3c3d'
-  const tabText = '#9393b2'
+  const tabText = white
   const tabTextActive = '#fff'
-  const dividerBg = '#3c3c3d'
+  const dividerBg = '#d99f2b'
   
   return Object.assign({}, config, {
     foregroundColor,

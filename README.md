@@ -9,7 +9,7 @@
 
   ```js
 plugins: [
-      'hyper-firefox-devtools'
+  'hyper-firefox-devtools'
 ],
 ```
 3. Fully reload HyperTerm (`Cmd+Shift+R`), and tada! :tada:
