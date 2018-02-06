@@ -37,7 +37,7 @@ module.exports.decorateConfig = config => {
   const borderColor = '#3c3c3d'
   const tabText = 'rgba(249,249,250,.55)'
   const tabTextActive = '#f9f9fa'
-  const dividerBg = 'rgba(255,255,255,0.03)'
+  const dividerBg = 'rgba(255,255,255,0.2)'
   
   return Object.assign({}, config, {
     foregroundColor,
