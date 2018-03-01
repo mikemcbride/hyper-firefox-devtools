@@ -1,6 +1,6 @@
 {
   "name": "hyper-firefox-devtools",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Hyper theme based on the Firefox Dev Tools colors",
   "main": "index.js",
   "keywords": [
