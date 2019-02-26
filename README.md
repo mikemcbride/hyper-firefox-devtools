@@ -2,7 +2,7 @@
 
 [Hyper](https://hyper.is) theme based on the Firefox Dev Tools.
 
-![](https://cdn.rawgit.com/mikemcbride/hyper-firefox-devtools/16104778ff9240a58f066427fb2628745ea66548/screenshot.png)
+![](https://cdn.jsdelivr.net/gh/mikemcbride/hyper-firefox-devtools@6f20bbb6ef5c67c9dfe08d3d9bf3585c61fbd4a3/screenshot.png)
 
 ### Install
 
@@ -11,7 +11,7 @@
 
   ```js
 plugins: [
-    'hyper-firefox-devtools'
+  'hyper-firefox-devtools'
 ],
 ```
 3. Fully reload Hyper (`Cmd+Shift+R`), and tada! :tada:
