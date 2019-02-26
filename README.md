@@ -11,7 +11,7 @@
 
   ```js
 plugins: [
-  'hyper-firefox-devtools'
+    'hyper-firefox-devtools'
 ],
 ```
 3. Fully reload Hyper (`Cmd+Shift+R`), and tada! :tada:
